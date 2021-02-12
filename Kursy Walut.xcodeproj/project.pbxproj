@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5224352C25D4856A008ED72F /* CurrencyRatesListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5224352B25D4856A008ED72F /* CurrencyRatesListCell.swift */; };
+		5244CE4B25D05BF400D0B48D /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5244CE4A25D05BF400D0B48D /* Request.swift */; };
+		5244CE4E25D05F3300D0B48D /* APIResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5244CE4D25D05F3300D0B48D /* APIResult.swift */; };
+		5244CE5125D05F8200D0B48D /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5244CE5025D05F8200D0B48D /* NetworkService.swift */; };
+		5244CE5425D0603B00D0B48D /* GetTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5244CE5325D0603B00D0B48D /* GetTable.swift */; };
+		5244CE5F25D0679600D0B48D /* Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5244CE5E25D0679600D0B48D /* Table.swift */; };
+		5244CE6225D0690500D0B48D /* ParsingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5244CE6125D0690500D0B48D /* ParsingService.swift */; };
+		5244CE6825D0736F00D0B48D /* CurrenciesRatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5244CE6725D0736F00D0B48D /* CurrenciesRatesView.swift */; };
+		5244CE6B25D074B100D0B48D /* CurrenciesRatesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5244CE6A25D074B100D0B48D /* CurrenciesRatesViewModel.swift */; };
+		5244CE9925D1CD2E00D0B48D /* CurrencyListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5244CE9825D1CD2E00D0B48D /* CurrencyListCell.swift */; };
+		52571CC725D02F1700073748 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52571CC625D02F1700073748 /* AppDelegate.swift */; };
+		52571CC925D02F1700073748 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52571CC825D02F1700073748 /* SceneDelegate.swift */; };
+		52571CCB25D02F1700073748 /* CurrenciesRatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52571CCA25D02F1700073748 /* CurrenciesRatesViewController.swift */; };
+		52571CD025D02F2400073748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52571CCF25D02F2400073748 /* Assets.xcassets */; };
+		52571CD325D02F2400073748 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52571CD125D02F2400073748 /* LaunchScreen.storyboard */; };
+		5292DA6D25D2DEEF00913141 /* GetCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5292DA6C25D2DEEF00913141 /* GetCurrency.swift */; };
+		5292DA7325D2DFFF00913141 /* CurrencyDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5292DA7225D2DFFF00913141 /* CurrencyDetailsViewController.swift */; };
+		5292DA7725D2E02000913141 /* CurrencyDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5292DA7625D2E02000913141 /* CurrencyDetailsView.swift */; };
+		5292DA7B25D2E05800913141 /* CurrencyDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5292DA7A25D2E05800913141 /* CurrencyDetailsViewModel.swift */; };
+		5292DA7E25D2E08800913141 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5292DA7D25D2E08800913141 /* Currency.swift */; };
+		52A6FDAB25D582100007181B /* StringValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6FDAA25D582100007181B /* StringValues.swift */; };
+		52A6FDAE25D59E890007181B /* CompatibleLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6FDAD25D59E890007181B /* CompatibleLayoutGuide.swift */; };
+		52A6FDB725D59FF20007181B /* Kursy_Walut_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6FDB625D59FF20007181B /* Kursy_Walut_Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52A6FDB925D59FF20007181B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52571CBB25D02F1700073748 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52571CC225D02F1700073748;
+			remoteInfo = "Kursy Walut";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5224352B25D4856A008ED72F /* CurrencyRatesListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyRatesListCell.swift; sourceTree = "<group>"; };
+		5244CE4A25D05BF400D0B48D /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		5244CE4D25D05F3300D0B48D /* APIResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResult.swift; sourceTree = "<group>"; };
+		5244CE5025D05F8200D0B48D /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		5244CE5325D0603B00D0B48D /* GetTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTable.swift; sourceTree = "<group>"; };
+		5244CE5E25D0679600D0B48D /* Table.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Table.swift; sourceTree = "<group>"; };
+		5244CE6125D0690500D0B48D /* ParsingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParsingService.swift; sourceTree = "<group>"; };
+		5244CE6725D0736F00D0B48D /* CurrenciesRatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrenciesRatesView.swift; sourceTree = "<group>"; };
+		5244CE6A25D074B100D0B48D /* CurrenciesRatesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrenciesRatesViewModel.swift; sourceTree = "<group>"; };
+		5244CE9825D1CD2E00D0B48D /* CurrencyListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyListCell.swift; sourceTree = "<group>"; };
+		52571CC325D02F1700073748 /* Kursy Walut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kursy Walut.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52571CC625D02F1700073748 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52571CC825D02F1700073748 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		52571CCA25D02F1700073748 /* CurrenciesRatesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrenciesRatesViewController.swift; sourceTree = "<group>"; };
+		52571CCF25D02F2400073748 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52571CD225D02F2400073748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52571CD425D02F2400073748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5292DA6C25D2DEEF00913141 /* GetCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCurrency.swift; sourceTree = "<group>"; };
+		5292DA7225D2DFFF00913141 /* CurrencyDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyDetailsViewController.swift; sourceTree = "<group>"; };
+		5292DA7625D2E02000913141 /* CurrencyDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyDetailsView.swift; sourceTree = "<group>"; };
+		5292DA7A25D2E05800913141 /* CurrencyDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyDetailsViewModel.swift; sourceTree = "<group>"; };
+		5292DA7D25D2E08800913141 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		52A6FDAA25D582100007181B /* StringValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringValues.swift; sourceTree = "<group>"; };
+		52A6FDAD25D59E890007181B /* CompatibleLayoutGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompatibleLayoutGuide.swift; sourceTree = "<group>"; };
+		52A6FDB425D59FF20007181B /* Kursy Walut Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kursy Walut Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A6FDB625D59FF20007181B /* Kursy_Walut_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kursy_Walut_Tests.swift; sourceTree = "<group>"; };
+		52A6FDB825D59FF20007181B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52571CC025D02F1700073748 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52A6FDB125D59FF20007181B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5244CE5625D0609100D0B48D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5244CE4D25D05F3300D0B48D /* APIResult.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5244CE5725D0609B00D0B48D /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				5244CE5325D0603B00D0B48D /* GetTable.swift */,
+				5292DA6C25D2DEEF00913141 /* GetCurrency.swift */,
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		5244CE5D25D0637000D0B48D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5244CE5E25D0679600D0B48D /* Table.swift */,
+				5292DA7D25D2E08800913141 /* Currency.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5244CE6525D0714900D0B48D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5244CE6725D0736F00D0B48D /* CurrenciesRatesView.swift */,
+				5244CE9825D1CD2E00D0B48D /* CurrencyListCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5244CE6625D0714F00D0B48D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5244CE6A25D074B100D0B48D /* CurrenciesRatesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		52571CBA25D02F1700073748 = {
+			isa = PBXGroup;
+			children = (
+				52571CC525D02F1700073748 /* Kursy Walut */,
+				52A6FDB525D59FF20007181B /* Kursy Walut Tests */,
+				52571CC425D02F1700073748 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52571CC425D02F1700073748 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52571CC325D02F1700073748 /* Kursy Walut.app */,
+				52A6FDB425D59FF20007181B /* Kursy Walut Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52571CC525D02F1700073748 /* Kursy Walut */ = {
+			isa = PBXGroup;
+			children = (
+				52571CDC25D031EC00073748 /* Application */,
+				52A6FDA925D581FB0007181B /* Common */,
+				52571CDD25D031F900073748 /* Services */,
+				52571CDE25D0320100073748 /* Scenes */,
+				52571CDF25D0322500073748 /* Resources */,
+				52571CE025D0323200073748 /* Storyboards */,
+			);
+			path = "Kursy Walut";
+			sourceTree = "<group>";
+		};
+		52571CDC25D031EC00073748 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				52571CC625D02F1700073748 /* AppDelegate.swift */,
+				52571CC825D02F1700073748 /* SceneDelegate.swift */,
+				52571CD425D02F2400073748 /* Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		52571CDD25D031F900073748 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				52571CE325D032B400073748 /* Networking */,
+				52571CE425D032BA00073748 /* Parsing */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		52571CDE25D0320100073748 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				52571CE125D0324500073748 /* CurrenciesRates */,
+				52571CE225D0328400073748 /* CurrencyDetails */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		52571CDF25D0322500073748 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				52571CCF25D02F2400073748 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		52571CE025D0323200073748 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				52571CD125D02F2400073748 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		52571CE125D0324500073748 /* CurrenciesRates */ = {
+			isa = PBXGroup;
+			children = (
+				52571CCA25D02F1700073748 /* CurrenciesRatesViewController.swift */,
+				5244CE6525D0714900D0B48D /* View */,
+				5244CE6625D0714F00D0B48D /* ViewModel */,
+			);
+			path = CurrenciesRates;
+			sourceTree = "<group>";
+		};
+		52571CE225D0328400073748 /* CurrencyDetails */ = {
+			isa = PBXGroup;
+			children = (
+				5292DA7225D2DFFF00913141 /* CurrencyDetailsViewController.swift */,
+				5292DA7025D2DFE600913141 /* View */,
+				5292DA7125D2DFE900913141 /* ViewModel */,
+			);
+			path = CurrencyDetails;
+			sourceTree = "<group>";
+		};
+		52571CE325D032B400073748 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				5244CE5025D05F8200D0B48D /* NetworkService.swift */,
+				5244CE4A25D05BF400D0B48D /* Request.swift */,
+				5244CE5725D0609B00D0B48D /* Endpoints */,
+				5244CE5625D0609100D0B48D /* Model */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		52571CE425D032BA00073748 /* Parsing */ = {
+			isa = PBXGroup;
+			children = (
+				5244CE6125D0690500D0B48D /* ParsingService.swift */,
+				5244CE5D25D0637000D0B48D /* Models */,
+			);
+			path = Parsing;
+			sourceTree = "<group>";
+		};
+		5292DA7025D2DFE600913141 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5292DA7625D2E02000913141 /* CurrencyDetailsView.swift */,
+				5224352B25D4856A008ED72F /* CurrencyRatesListCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5292DA7125D2DFE900913141 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5292DA7A25D2E05800913141 /* CurrencyDetailsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		52A6FDA925D581FB0007181B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				52A6FDAA25D582100007181B /* StringValues.swift */,
+				52A6FDAD25D59E890007181B /* CompatibleLayoutGuide.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		52A6FDB525D59FF20007181B /* Kursy Walut Tests */ = {
+			isa = PBXGroup;
+			children = (
+				52A6FDB625D59FF20007181B /* Kursy_Walut_Tests.swift */,
+				52A6FDB825D59FF20007181B /* Info.plist */,
+			);
+			path = "Kursy Walut Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52571CC225D02F1700073748 /* Kursy Walut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52571CD725D02F2400073748 /* Build configuration list for PBXNativeTarget "Kursy Walut" */;
+			buildPhases = (
+				52571CBF25D02F1700073748 /* Sources */,
+				52571CC025D02F1700073748 /* Frameworks */,
+				52571CC125D02F1700073748 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kursy Walut";
+			productName = "Kursy Walut";
+			productReference = 52571CC325D02F1700073748 /* Kursy Walut.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52A6FDB325D59FF20007181B /* Kursy Walut Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52A6FDBB25D59FF20007181B /* Build configuration list for PBXNativeTarget "Kursy Walut Tests" */;
+			buildPhases = (
+				52A6FDB025D59FF20007181B /* Sources */,
+				52A6FDB125D59FF20007181B /* Frameworks */,
+				52A6FDB225D59FF20007181B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52A6FDBA25D59FF20007181B /* PBXTargetDependency */,
+			);
+			name = "Kursy Walut Tests";
+			productName = "Kursy Walut Tests";
+			productReference = 52A6FDB425D59FF20007181B /* Kursy Walut Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52571CBB25D02F1700073748 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					52571CC225D02F1700073748 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					52A6FDB325D59FF20007181B = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 52571CC225D02F1700073748;
+					};
+				};
+			};
+			buildConfigurationList = 52571CBE25D02F1700073748 /* Build configuration list for PBXProject "Kursy Walut" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52571CBA25D02F1700073748;
+			productRefGroup = 52571CC425D02F1700073748 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52571CC225D02F1700073748 /* Kursy Walut */,
+				52A6FDB325D59FF20007181B /* Kursy Walut Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52571CC125D02F1700073748 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52571CD325D02F2400073748 /* LaunchScreen.storyboard in Resources */,
+				52571CD025D02F2400073748 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52A6FDB225D59FF20007181B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52571CBF25D02F1700073748 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5292DA6D25D2DEEF00913141 /* GetCurrency.swift in Sources */,
+				52571CCB25D02F1700073748 /* CurrenciesRatesViewController.swift in Sources */,
+				52A6FDAE25D59E890007181B /* CompatibleLayoutGuide.swift in Sources */,
+				5244CE6825D0736F00D0B48D /* CurrenciesRatesView.swift in Sources */,
+				5244CE4E25D05F3300D0B48D /* APIResult.swift in Sources */,
+				5244CE5425D0603B00D0B48D /* GetTable.swift in Sources */,
+				52A6FDAB25D582100007181B /* StringValues.swift in Sources */,
+				5244CE9925D1CD2E00D0B48D /* CurrencyListCell.swift in Sources */,
+				5292DA7B25D2E05800913141 /* CurrencyDetailsViewModel.swift in Sources */,
+				52571CC725D02F1700073748 /* AppDelegate.swift in Sources */,
+				5292DA7725D2E02000913141 /* CurrencyDetailsView.swift in Sources */,
+				52571CC925D02F1700073748 /* SceneDelegate.swift in Sources */,
+				5292DA7325D2DFFF00913141 /* CurrencyDetailsViewController.swift in Sources */,
+				5244CE5125D05F8200D0B48D /* NetworkService.swift in Sources */,
+				5244CE5F25D0679600D0B48D /* Table.swift in Sources */,
+				5292DA7E25D2E08800913141 /* Currency.swift in Sources */,
+				5244CE6225D0690500D0B48D /* ParsingService.swift in Sources */,
+				5244CE4B25D05BF400D0B48D /* Request.swift in Sources */,
+				5224352C25D4856A008ED72F /* CurrencyRatesListCell.swift in Sources */,
+				5244CE6B25D074B100D0B48D /* CurrenciesRatesViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52A6FDB025D59FF20007181B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A6FDB725D59FF20007181B /* Kursy_Walut_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52A6FDBA25D59FF20007181B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52571CC225D02F1700073748 /* Kursy Walut */;
+			targetProxy = 52A6FDB925D59FF20007181B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52571CD125D02F2400073748 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52571CD225D02F2400073748 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52571CD525D02F2400073748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52571CD625D02F2400073748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52571CD825D02F2400073748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36KDW3PN9H;
+				INFOPLIST_FILE = "Kursy Walut/Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mcpie.Kursy-Walut";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52571CD925D02F2400073748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36KDW3PN9H;
+				INFOPLIST_FILE = "Kursy Walut/Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mcpie.Kursy-Walut";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52A6FDBC25D59FF20007181B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36KDW3PN9H;
+				INFOPLIST_FILE = "Kursy Walut Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mcpie.Kursy-Walut-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kursy Walut.app/Kursy Walut";
+			};
+			name = Debug;
+		};
+		52A6FDBD25D59FF20007181B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36KDW3PN9H;
+				INFOPLIST_FILE = "Kursy Walut Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mcpie.Kursy-Walut-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kursy Walut.app/Kursy Walut";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52571CBE25D02F1700073748 /* Build configuration list for PBXProject "Kursy Walut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52571CD525D02F2400073748 /* Debug */,
+				52571CD625D02F2400073748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52571CD725D02F2400073748 /* Build configuration list for PBXNativeTarget "Kursy Walut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52571CD825D02F2400073748 /* Debug */,
+				52571CD925D02F2400073748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52A6FDBB25D59FF20007181B /* Build configuration list for PBXNativeTarget "Kursy Walut Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52A6FDBC25D59FF20007181B /* Debug */,
+				52A6FDBD25D59FF20007181B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52571CBB25D02F1700073748 /* Project object */;
+}
